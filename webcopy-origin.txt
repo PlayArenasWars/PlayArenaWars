@@ -1,0 +1,88 @@
+Uri: https://velvuna.com/
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\index.htm
+Content Type: text/html
+
+Uri: https://velvuna.com/media/main.dde7f6b9.html
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\media\main.dde7f6b9.html
+Content Type: text/html
+
+Uri: https://velvuna.com/styles-new.css
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\styles-new.css
+Content Type: text/css
+
+Uri: https://velvuna.com/media/favicon.html
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\media\favicon.html
+Content Type: text/html
+
+Uri: https://velvuna.com/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\cdnjs.cloudflare.com\ajax\libs\font-awesome\6.0.0\css\all.min.css
+Content Type: text/css
+
+Uri: https://velvuna.com/downloads/Velvuna 2.1.1.exe
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\downloads\Velvuna 2.1.1.exe
+Content Type: application/x-msdownload
+
+Uri: https://velvuna.com/media/blacktail.gif
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\media\blacktail.gif
+Content Type: image/gif
+
+Uri: https://velvuna.com/media/background.mp4
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\media\background.mp4
+Content Type: video/mp4
+
+Uri: https://velvuna.com/media/battle.c14dbbb.png
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\media\battle.c14dbbb.png
+Content Type: image/png
+
+Uri: https://velvuna.com/media/adventure.42415eaf.png
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\media\adventure.42415eaf.png
+Content Type: image/png
+
+Uri: https://velvuna.com/media/optimize.56eaa54e.png
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\media\optimize.56eaa54e.png
+Content Type: image/png
+
+Uri: https://velvuna.com/media/create.9799d6a7.png
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\media\create.9799d6a7.png
+Content Type: image/png
+
+Uri: https://velvuna.com/media/collect.66f67f11.png
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\media\collect.66f67f11.png
+Content Type: image/png
+
+Uri: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\beacon.min.js\vcd15cbe7772f49c399c6a5babf22c1241717689176015
+Content Type: text/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-brands-400.woff2
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\ajax\libs\font-awesome\6.0.0\webfonts\fa-brands-400.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-brands-400.ttf
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\ajax\libs\font-awesome\6.0.0\webfonts\fa-brands-400.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-regular-400.woff2
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\ajax\libs\font-awesome\6.0.0\webfonts\fa-regular-400.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-regular-400.ttf
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\ajax\libs\font-awesome\6.0.0\webfonts\fa-regular-400.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-solid-900.woff2
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\ajax\libs\font-awesome\6.0.0\webfonts\fa-solid-900.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-solid-900.ttf
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\ajax\libs\font-awesome\6.0.0\webfonts\fa-solid-900.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-v4compatibility.woff2
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\ajax\libs\font-awesome\6.0.0\webfonts\fa-v4compatibility.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-v4compatibility.ttf
+File Name: C:\Users\PC\Desktop\Downloaded Web Sites\velvuna.com\ajax\libs\font-awesome\6.0.0\webfonts\fa-v4compatibility.ttf
+Content Type: application/octet-stream
+
